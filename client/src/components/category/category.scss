@@ -1,0 +1,98 @@
+@mixin category-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@mixin category-text {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+section{
+    background-color: white;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    padding-top: 1.5rem;
+    padding-left: 10rem;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+
+    .category-1 {
+        @include category-icon;
+
+        span {
+           @include category-text;
+        }
+    }
+
+    .category-2 {
+        @include category-icon;
+
+        span {
+           @include category-text;
+        }
+    }
+
+
+    .category-3 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-4 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-5 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-6 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-7 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-8 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+    .category-9 {
+        @include category-icon;
+        span {
+            @include category-text;
+        }
+    }
+
+}
+
+.category-icon {
+    margin-left: 2rem;
+}

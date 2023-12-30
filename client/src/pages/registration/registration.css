@@ -1,0 +1,56 @@
+
+
+.registerTitle {
+    margin: auto;
+    border: none;
+}
+
+.regisContainer {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border-radius: 1px solid gray;
+}
+
+.regisItemContainer{
+    margin: auto;
+}
+
+.regisItem {
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+  
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.inputField {
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 10px;
+    font-size:.875em;
+    border-radius: 20px;
+    padding: 0 .7rem 0 .7rem;
+}
+
+.registerButton {
+    height: 2rem;
+    width: 5rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    background-color: rgb(59, 47, 128);
+    color: white;
+    border-radius: 15px;
+}
+
+::placeholder {
+    position: absolute;
+    left: 10px;
+}

@@ -1,0 +1,17 @@
+.filterContainer {
+    background-color: white;
+    margin: 1rem 1rem 1rem 1rem;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 8vw;
+
+    .filter-button {
+        width: 7vw;
+        height: 7vh;
+        
+    }
+}
+

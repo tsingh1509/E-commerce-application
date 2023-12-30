@@ -1,0 +1,56 @@
+.top-products {
+    
+    background-color: white;
+    margin: 1rem;
+    h2 {
+        margin: 1rem 8rem 2rem 8rem;
+        padding-top: 1rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem 8rem 1rem 8rem;
+    }
+
+    img {
+        height: 10rem;
+        width: 10rem;
+        background-color: lightgrey;
+        border: 1px solid grey;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .hover:hover {
+        border: 1px solid black;
+    }
+}
+
+// when data is loading 
+
+.top-products-nodata {
+    background-color: white;
+    margin: 1rem;
+
+    h2 {
+        margin: 1rem 8rem 2rem 8rem;
+        padding-top: 1rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem 8rem 1rem 8rem;
+    }
+    img {
+        height: 10rem;
+        width: 10rem;
+        background-color: lightgrey;
+        border: 1px solid grey;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+
+}

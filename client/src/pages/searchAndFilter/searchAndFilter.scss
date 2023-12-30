@@ -1,0 +1,22 @@
+.high-rated-products {
+    margin: 1rem 8rem 1rem 8rem;
+}
+
+.high-rated {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.high-rated-item {
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.topItems {
+    height: 15rem;
+    width: 20rem;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
