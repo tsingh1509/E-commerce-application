@@ -13,7 +13,6 @@
     "@mui/material": "^5.15.0",
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "parcel": "^2.10.3",
@@ -49,5 +48,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@testing-library/react": "^14.1.2",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.5.1"
   }
 }

@@ -20,6 +20,9 @@ const Navbar = () => {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
+
+    // Getting data from cart.
+    const cartData = useSelector((state) => state.cart.cartData);
     // console.log(data);
     // console.log(serchFilter);
 
@@ -94,7 +97,7 @@ const Navbar = () => {
                  <Link to="/cart">
                  
                     <div className="user-cart">
-                        <Button variant="contained"><ShoppingCartIcon/></Button>
+                        <Button variant="contained"><ShoppingCartIcon/>{cartData.length}</Button>
                     </div>
 
                 </Link>
